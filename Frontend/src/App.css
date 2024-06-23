@@ -1,0 +1,158 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.footer{
+  display: flex;
+  align-items: center;
+  padding: 2px 2px 0 2px;
+  margin: 2px;
+  justify-content: space-around;
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+.header-btn{
+  align-items: center;
+  margin: 1px auto;
+  padding: 5px 8px;
+  border-radius:15px;
+  background-color: #b4891c;
+}
+
+.header-btn:active{
+  background-color: #e1be64;
+}
+
+.header-drop{
+  margin: 1px auto;
+  padding: 5px 15px;
+  border-radius:15px 3px 3px 15px;
+  background-color: #b4891c;
+  width: 200px;
+}
+
+.header-drop:active{
+  background-color: #e1be64;
+}
+
+.footer-btn{
+  margin: 5px 15px;
+  padding: 5px 15px;
+  border-radius:15px;
+  background-color: #b4891c;
+}
+
+.footer-btn:active{
+  background-color: #e1be64;
+}
+/* 
+.coloum1{
+  background-color: #61dafb
+}
+.coloum2{
+  background-color: #b4891c;
+}
+.coloum3{
+  background-color: blueviolet;
+}
+.coloum4{
+  background-color: blanchedalmond;
+}
+.coloum5{
+  background-color: rgb(200, 56, 128);
+}
+.coloum6{
+  background-color: darkkhaki;
+}
+.coloum7{
+  background-color: fuchsia;
+}
+.coloum8{
+  background-color: lightcoral;
+}
+
+.coloums{
+  width: 100%;
+  padding: 5px 15px;
+  text-align: center;
+} */
+/* 
+.body-container{
+  display: flex;
+  margin: 5px 20px;
+
+} */
+
+td ,th , table{
+  border: solid black 2px;
+  padding: 2px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: small;
+}
+
+table{
+  border-radius: 2rem;
+}
+
+thead{
+  font-size: 1.2rem;
+  background-color: burlywood;
+}
+
+tbody{
+  background-color: skyblue;
+}
+
+td img{
+  width: 40px;
+  height: auto;
+  border-radius: 20%;
+
+}
+
+
